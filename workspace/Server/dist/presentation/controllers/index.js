@@ -1,0 +1,5 @@
+"use strict";Object.defineProperty(exports, "__esModule", {value: true}); function _createStarExport(obj) { Object.keys(obj) .filter((key) => key !== "default" && key !== "__esModule") .forEach((key) => { if (exports.hasOwnProperty(key)) { return; } Object.defineProperty(exports, key, {enumerable: true, get: () => obj[key]}); }); }var _clientgetallcontroller = require('./client-get-all-controller'); _createStarExport(_clientgetallcontroller);
+var _clientcreatecontroller = require('./client-create-controller'); _createStarExport(_clientcreatecontroller);
+var _clientupdatecontroller = require('./client-update-controller'); _createStarExport(_clientupdatecontroller);
+var _clientdeletecontroller = require('./client-delete-controller'); _createStarExport(_clientdeletecontroller);
+var _clientfindcontroller = require('./client-find-controller'); _createStarExport(_clientfindcontroller);

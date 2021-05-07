@@ -7,7 +7,7 @@ import utils from './utils/'
 import axios from 'axios'
 import intercepter from './utils/intercepter'
 
-axios.defaults.baseURL = 'http://localhost:5050/api'
+axios.defaults.baseURL = 'https://api-igor.herokuapp.com/api'
 
 intercepter(store, axios)
 
