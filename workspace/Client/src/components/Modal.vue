@@ -21,18 +21,21 @@
             </v-col>
             <v-col cols="12" sm="6" md="4">
               <v-text-field
+                v-mask="'###.###.###-##'"
                 v-model="editedItem.document"
                 label="CPF"
               ></v-text-field>
             </v-col>
             <v-col cols="12" sm="6" md="4">
               <v-text-field
+                v-mask="'(##) #####-####'"
                 v-model="editedItem.phone"
                 label="Telefone"
               ></v-text-field>
             </v-col>
             <v-col cols="12" sm="6" md="4">
               <v-text-field
+                @keydown.enter="save"
                 v-model="editedItem.email"
                 label="email"
               ></v-text-field>

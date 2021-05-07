@@ -6,10 +6,13 @@ import vuetify from './plugins/vuetify'
 import utils from './utils/'
 import axios from 'axios'
 import intercepter from './utils/intercepter'
+import VueTheMask from 'vue-the-mask'
+
 
 axios.defaults.baseURL = 'https://api-igor.herokuapp.com/api'
 
 intercepter(store, axios)
+Vue.use(VueTheMask)
 
 
 Vue.config.productionTip = false
