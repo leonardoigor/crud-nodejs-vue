@@ -1,0 +1,6 @@
+export * from './check-client-by-email-repository'
+export * from './update-client-repository'
+export * from './delete-client-repository'
+export * from './get-clients-repository'
+export * from './find-client-repository'
+export * from './client-create-repository'
